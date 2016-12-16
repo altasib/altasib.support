@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS `altasib_support_category`;
+DROP TABLE IF EXISTS `altasib_support_client`;
+DROP TABLE IF EXISTS `altasib_support_client2clientworker`;
+DROP TABLE IF EXISTS `altasib_support_file_2_message`;
+DROP TABLE IF EXISTS `altasib_support_sla`;
+DROP TABLE IF EXISTS `altasib_support_sla_group`;
+DROP TABLE IF EXISTS `altasib_support_status`;
+DROP TABLE IF EXISTS `altasib_support_ticket`;
+DROP TABLE IF EXISTS `altasib_support_ticket_message`;
+DROP TABLE IF EXISTS `altasib_support_worker2client`;
+DROP TABLE IF EXISTS `altasib_support_ticket_member`;
+DROP TABLE IF EXISTS `altasib_support_type_time`;
+DROP TABLE IF EXISTS `altasib_support_type_time_cost`;
+DROP TABLE IF EXISTS `altasib_support_quick_response`;

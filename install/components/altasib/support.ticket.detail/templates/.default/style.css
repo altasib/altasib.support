@@ -1,0 +1,910 @@
+.ticket_title
+{
+	background-color: #0092e8; 
+	color: #fff;
+	/*min-height: 47px;*/
+	font-size: 18px;
+	line-height: 18px;
+	padding: 15px 18px;
+	font-family: "OpenSans-Light",sans-serif;
+}
+.dop_title_block_div
+{
+	height: 47px;
+	padding: 15px 0;	
+	width: 100%;
+	/*border-bottom: 1px solid #999;*/
+	display: inline-table;
+	border-bottom: 7px solid #f0f0f0;
+	margin-top: 15px;
+}
+.text_add_files_td .dop_title_block_2
+{
+	padding: 10px 0;	
+	width: 100%;	
+	display: inline-table;
+	border-bottom: 7px solid #F0F0F0;
+	margin: 15px 0;	
+	color: #474747;
+	font-size: 18px;
+	font-family: "OpenSans-Light",sans-serif;		
+}
+.dop_title_td
+{
+	height: 47px;
+	padding: 15px 0;		
+}
+.dop_title_block
+{
+	float: left;
+	color: #474747;
+	font-size: 24px;
+	font-family: "OpenSans-Light",sans-serif;	
+}
+.altasib_text_mess_td
+{
+	background-color: #f8f8f8; 
+	color: #515151;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 18px;
+	font-family: arial;
+
+}
+.altasib-support-adm-act {
+    position: relative;
+    visibility:hidden;
+    float:right;
+    font-size:20px;
+	margin-top: -15px;
+	opacity: 0;
+	transition: opacity 0.3s linear 0.3s, visibility 0.1s;
+}
+.altasib-support-adm-act div{
+	display: inline;
+	margin-right: 5px;
+	cursor: pointer;
+	color: #cdcdcd;
+	/*transition: color 0.3s linear 0.3s !important;*/
+}	
+.altasib-support-adm-act div:hover{
+	color: #0092e8;
+}
+.altasib-support-adm-act div.ticket-del:hover{
+	color: red;
+}
+
+.altasib-support-message:hover .altasib-support-adm-act{
+	visibility:visible;
+	opacity: 1;
+}
+
+div.feed-com-avatar-Y {
+	background-image: none;
+}
+.feed-com-avatar {
+	top: 7px;
+	background: url('/local/components/altasib/support/images/live_feed_sprite_4.png') no-repeat -50px -180px #fff;
+	border: 1px solid #eeeeee;
+	box-shadow: inset 0 0 1px #fdfdfd;
+	border-radius: 1px;
+	box-shadow: inset 0 0 1px #f0f0f0;
+	height: 30px;
+	width: 30px;
+	float: left;
+	margin-right: 10px;
+	padding: 3px;
+}
+.feed-com-name {
+	color: #474747;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	vertical-align: top;
+
+}
+
+.feed-com-informers {
+	display: inline-block;
+	font-size: 11px;
+	line-height: 14px;
+	margin-left: 3px;
+	color: #999;
+	vertical-align: top;
+}
+.feed-time {
+	background: url('/local/components/altasib/support/images/live_feed_sprite_4.png') no-repeat -146px -230px;
+	margin-right: 12px;
+	font-size: 11px;
+	padding-left: 13px;
+}
+.feed-com-text {
+	font-size: 13px;
+	overflow: hidden;
+	padding: 0px 10px 20px 0px;
+	position: relative;
+}
+
+.feed-com-text img{
+   /* display: none;*/
+	height: auto;	
+	width: 90%;
+}
+.feed-com-text-inner-inner, .altasib_text_mess_td{
+
+    /*
+	white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;*/	
+	word-wrap: break-word;
+   /* word-break: break-all;	*/ 
+}
+
+div.feed-com-text-inner-inner img
+{
+    /*max-width:800px;*/
+    cursor: pointer;
+}
+.code pre
+{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    line-height: 1.42857;
+    margin: 0 0 10px;
+    padding: 9.5px;
+    word-break: break-all;
+    word-wrap: break-word;	
+	max-height: 450px;
+} 
+.ticketn .code
+{
+	width: 100%;
+}
+.altasib-support-message
+{
+	border-bottom: 2px solid #eee;/*7px solid #f0f0f0;*/
+	padding: 5px 10px;
+}
+.log-mess
+{
+	border-bottom: 0px;
+	background-color: #EAF5FF;
+}
+.author-mess
+{
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #eee;
+}
+.date-separate
+{
+	border-top: 2px solid #fff;
+}
+.author-mess pre
+{
+	background-color: #fff!important;	
+}
+
+.feed-com-info
+{
+	margin-top: 15px;
+}
+.messege_list_tic .altasib-support-message:last-child {
+	border-bottom: 0px solid #f0f0f0;
+}
+.LinkMessage
+{
+	float: right;
+	margin-top: -5px;
+	margin-right: 10px;
+}
+#sup-loadm-cnt
+{
+    background-color: #d5dbdf;
+    border-radius: 10px;
+    color: #535c69;	
+	height: 29px;
+    line-height: 24px;	
+    padding: 2px 12px;	
+	font-weight: bold;
+}
+.altasibTicketPostMoreButton {
+    background-image: linear-gradient(to bottom, rgba(248,248,248, 0), rgba(248,248,248, 0.5) 10px, rgba(248,248,248, 1) 20px);
+    cursor: pointer;
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 264px;
+    width: 100%;
+    z-index: 3;
+	display: none;
+}
+
+.altasibTicketPostMoreButton:hover .altasibTicketPostMoreBut, .altasibTicketPostMoreButton:hover .altasibTicketPostMoreBut::before {
+    border-color: #b6bbbd;
+}
+
+.ticketn table.quote
+{
+	width:99%;
+}
+.ticketn div.quote
+{
+	background:#FFFAD7;	
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    line-height: 1.42857;
+    margin: 0 0 10px;
+    padding: 9.5px;
+	max-height: 450px;	
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow: auto;
+}
+
+.ticketn table.quote::before {
+	font-family: Georgia, arial;
+	font-size: 45px;
+    content: "\201C";
+    line-height: 15px;
+    margin: 10px 10px 10px 0;
+    position: absolute;
+	color: #999;
+}
+.ticketn table.quote > tbody > tr > td
+{
+	padding: 10px 10px 10px 35px;
+}
+
+.feed-com-block {
+min-height: 40px;
+position: relative;
+overflow: hidden;
+zoom: 1;
+}
+
+.feed-com-block.hidden-message{
+    background-color: floralwhite;
+}
+
+.is-hidden-text{
+    font-style: italic;
+    color: tomato;    
+}
+.feed-com-block.log-message{
+	padding: 0 5px 0 15px;
+}
+.is-log-text{
+    font-style: italic;
+    color: tomato;    
+}
+
+.text_add_files_td img, .feed-com-files-cont img
+{
+	max-height: 50px;
+	max-width: 75px;
+	cursor: pointer;	
+}
+a.sup-loadAll
+{
+text-decoration: none;
+border-bottom: 1px dashed #A8BDD1!important;
+transition: border-bottom-color 0.2s linear 0s;
+}
+a.sup-loadAll:hover {
+    border-bottom: 1px dashed #0B66C3!important;
+}
+#support-load-line
+{
+/*		border-bottom: 1px dashed #aaa;
+		padding-bottom: 10px;*/
+		float: right;
+		margin-top: 5px;
+}
+.dashed-bottom
+{
+		border-bottom: 1px dashed #777;
+		clear: bodth;
+		width: 100%;
+		/*margin-top: 40px;*/
+		/*border-bottom: 7px dotted #F0F0F0;*/
+}
+a.ticketID_promt
+{
+	display: block;
+	float: right;
+	font-size: 11px;
+	top: 5px;
+	right: 30px;
+	position: absolute;
+	/*visibility: hidden;
+	opacity: 0;*/
+	/*transition: opacity 0.5s linear 0.3s, visibility 0s!important;	*/
+}
+
+.altasibTicketPostMoreBut {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #d7dce0;
+    display: block;
+    height: 23px;
+    margin: 0;
+    position: relative;
+    transition: border-color 0.2s linear 0s;
+}
+.altasibTicketPostMoreBut::before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("/local/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll 21px 5px #F8F8F8;
+    border: 1px solid #d7dce0;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    bottom: -1px;
+    content: "";
+    height: 21px;
+    left: 50%;
+    margin-left: -32px;
+    position: absolute;
+    transition: border-color 0.2s linear 0s;
+    width: 63px;
+}
+.ticketn .altasib_text_div
+{
+		max-height: 288px;
+		overflow: hidden;
+		position: relative;
+}
+.post-fav{
+    background-color: #DEFBC1;
+}    
+.post-fav .icon-star-empty{
+    display: none;	
+}
+.ticket-fav .icon-star{
+	display: none;
+}
+.post-fav .icon-star{
+	display: inline;
+}
+.ticket-fav{
+    cursor: pointer;
+    height: 15px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 10px;
+	color: #cdcdcd;
+/*	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s linear 0.3s, visibility 0s;	*/
+}
+.ticket-fav:hover{
+	color: #0092e8;
+}
+.post-fav .ticket-fav
+{
+	color: #0092e8;
+	visibility:visible;
+}
+.post-fav .ticket-fav:hover{
+	color: #cdcdcd;
+}
+
+a.altasib-support-quote
+{
+	display: block;
+	position: absolute;
+	
+    background: url("/local/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll 0 -96px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    position: absolute;
+    text-decoration: none;
+    transition: opacity 0.4s ease 0s, visibility 0.1s linear 0.4s;
+    width: 32px;
+    z-index: 500;	
+}
+a.altasib-support-quote:hover
+{
+    background: url("/local/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll -63px -96px rgba(0, 0, 0, 0);
+}
+a.altasib-support-quote:active
+{
+    background: url("/local/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll -126px -97px rgba(0, 0, 0, 0);
+}
+
+
+/*.altasib-support-message:hover .ticket-fav, .altasib-support-message:hover .ticketID_promt{
+	visibility:visible;
+	opacity: 1;
+	}
+*/
+/*.ticketn
+{
+    background:#eef2f4;
+	color: #535c69;
+}
+.ticketn_mess 
+{
+    background:#f8f6e4;
+}
+.ticketn_mess .dop_title_block
+{
+    background:#eae3bb!important;
+}
+
+.ticketn td
+{
+  border: 0px;
+  padding: 3px;
+}
+
+#support-load-line
+{
+		border-bottom: 1px dashed #aaa;
+		padding-bottom: 10px;
+}
+#sup-loadm-cnt
+{
+    background-color: #d5dbdf;
+    border-radius: 10px;
+    color: #535c69;	
+	height: 29px;
+    line-height: 24px;	
+    padding: 2px 12px;	
+	font-weight: bold;
+}
+
+.title_block
+{
+        color:#8A0017;
+        text-align:left;
+        border: 0px;
+        padding:10px 0px;
+}
+.title_block h2
+{
+		display: inline;
+		font-weight: normal;
+		border-bottom: none!important;
+}
+#deffered {
+    color: red;
+    font-size: smaller;    
+}
+.line_dotted_main
+{
+        height:1px;
+        overflow:hidden;
+        background:#C9D5DE;
+        margin-top:6px;
+}
+.ticketn textarea
+{
+        width:100%;
+}
+.ticketn .left_title_disr
+{
+        text-align:right;
+        color:#646465;
+        width:50%;
+}
+.ticketn .dop_title_td
+{
+        padding: 7px 3px 3px 3px;
+}
+.ticketn .dop_title_td .dop_title_block
+{
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset;
+	padding: 7px;
+    font-size: 20px;
+	font-family: "OpenSans-Light",sans-serif;
+    color: #000;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.2);	
+	background:#D5DBDF;
+	color:#5f666e;
+	text-align:center;	
+}
+.ticketn .messege_list_tic
+{
+        padding-left:9px;
+        padding-right:9px;
+        padding-bottom:10px;
+}
+.ticketn .tbl_mess
+{
+        border:1px solid #C9D5DE;
+        background:#f8f9fd;
+}
+.ticketn .title_mess
+{
+        background:#dce7ef;
+        border:1px solid #C9D5DE;
+}
+.ticketn .name_title_mass
+{
+        text-align:left;
+        color:#646465;
+}
+.ticketn .value
+{
+        font-weight:bold;
+        color:#000000;
+}
+.ticketn .time_td_mess
+{
+        text-align:right;
+}
+.ticketn .Altasib_text_mess_td
+{
+        padding: 9px 9px;		
+		font-size: 13px;
+}
+.ticketn .Altasib_text_div
+{
+		max-height: 288px;
+		overflow: hidden;
+		position: relative;
+}
+.ticketn .text_add_files_td
+{
+        padding: 7px 9px;
+		border-top: 1px dashed #aaa;
+		font-size: 13px;
+}
+.ticketn .text_add_files_td div
+{
+		font-size: 12px;
+		font-weight: bold;
+		color: #8a0017;
+		margin-bottom: 8px;
+}
+.ticketn .left_title_pole
+{
+        text-align:right;
+        color:#646465;
+        width:30%;
+        vertical-align:top;
+}
+.ticketn .inputtext
+{
+        width:400px;
+        border:1px solid #C0C0C0;
+}
+.ticketn .textarea_input
+{
+        width:400px;
+        border:1px solid #C0C0C0;
+}
+.ticketn .textarea_input2
+{
+        border:1px solid #C0C0C0;
+        height:130px;
+}
+.ticketn .select_input
+{
+        width:400px;
+}
+.ticketn .block_date input
+{
+        width:380px;
+        border:1px solid #C0C0C0;
+}
+.ticketn div.code
+{
+   padding: 0px;
+   margin-bottom:10px;
+}
+
+.ticketn div.code table
+{
+   width:100%;
+   border:1px solid #C9D5DE;
+   background:#FFFFFF;
+}
+.ticketn div.quote
+{
+   padding: 0px 7px;
+      margin-bottom:10px
+}
+.ticketn div.quote table
+{
+   width:100%;
+   border:1px solid #C9D5DE;
+   background:#FFFFFF;
+}
+
+.feed-com-block-outer {
+position: relative;
+}
+.feed-com-block {
+border-bottom: 1px solid #E6E8E9;
+min-height: 40px;
+padding: 8px 25px 8px 58px;
+position: relative;
+overflow: hidden;
+zoom: 1;
+}
+
+.feed-com-block.hidden-message{
+    background-color: floralwhite;
+}
+
+.is-hidden-text{
+    font-style: italic;
+    color: tomato;    
+}
+.feed-com-block.log-message{
+    background-color: mintcream;
+}
+.is-log-text{
+    font-style: italic;
+    color: tomato;    
+}
+div.feed-com-avatar-Y {
+background-image: none;
+}
+.feed-com-avatar {
+top: 7px;
+}
+.feed-com-avatar {
+background: url('/local/components/altasib/support/images/live_feed_sprite_4.png?4') no-repeat -50px -180px #fff;
+border: 1px solid #eeeeee;
+box-shadow: inset 0 0 1px #fdfdfd;
+border-radius: 1px;
+box-shadow: inset 0 0 1px #f0f0f0;
+height: 30px;
+left: 7px;
+top: 11px;
+padding: 2px;
+position: absolute;
+width: 30px;
+}
+
+.feed-com-name {
+color: #8a0017;
+display: inline-block;
+font-size: 12px;
+line-height: 14px;
+font-weight: bold;
+margin-right: 5px;
+vertical-align: top;
+}
+
+.feed-com-informers {
+display: inline-block;
+font-size: 11px;
+line-height: 14px;
+margin-left: 3px;
+color: #999;
+vertical-align: top;
+margin-top: -3px;
+}
+
+.feed-com-text {
+font-size: 12px;
+overflow: hidden;
+margin-bottom: 3px;
+position: relative;
+}
+.feed-com-text-inner {
+
+}
+
+.feed-com-text-inner-inner{
+	display: none;
+	opacity: 0;
+	overflow-x: auto;
+	padding: 2px;
+}
+
+div.feed-com-text-inner-inner img
+{
+    max-width:800px;
+    cursor: pointer;
+}
+div.feed-com-text-inner-inner pre
+{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;     
+} 
+
+.feed-time {
+background: url('/local/components/altasib/support/images/live_feed_sprite_4.png?4') no-repeat -146px -230px;
+margin-right: 12px;
+font-size: 11px;
+padding-left: 13px;
+}
+
+.feed-com-informers .feed-time {
+line-height: 20px;
+}
+.feed-com-informers {
+font-size: 11px;
+line-height: 14px;
+color: #999;
+}
+
+
+.feed-wrap {
+color: #555;
+font-size: 14px;
+line-height: 20px;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+zoom: 1;
+}
+
+.ticketn div.code table.code
+{
+	margin-top: 10px;
+}
+.ticketn div.code pre
+{
+	overflow: auto;
+	white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word;
+	max-height: 500px;
+	margin-top: 5px;
+}
+	
+	.ticketn div.code table.code, .ticketn div.code pre
+	{max-width: 100px;}
+
+.feed-com-files {
+padding: 10px 0 0 0;
+}
+
+.feed-com-files-title {
+color: #5c6470;
+font-size: 12px;
+font-weight: bold;
+float: left;
+min-width: 50px;
+}
+
+.feed-com-files-cont {
+overflow: hidden;
+padding: 1px 0 1px 10px;
+zoom: 1;
+}
+
+a.sup-loadAll
+{
+text-decoration: none;
+margin-bottom: 15px;
+}
+
+.altasib-support-adm-act {
+    position: relative;
+    visibility:hidden;
+    float:right;
+    font-size:11px;
+}
+
+.altasib-support-message:hover .altasib-support-adm-act{visibility:visible;}
+
+.AltasibTicketPostMoreButton {
+    background-image: linear-gradient(to bottom, rgba(248, 246, 228, 0), rgba(248, 246, 228, 0.5) 10px, rgba(248, 246, 228, 1) 20px);
+    cursor: pointer;
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 264px;
+    width: 100%;
+    z-index: 3;
+	display: none;
+}
+
+.AltasibTicketPostMoreButton:hover .AltasibTicketPostMoreBut, .AltasibTicketPostMoreButton:hover .AltasibTicketPostMoreBut::before {
+    border-color: #b6bbbd;
+	
+}
+
+.AltasibTicketPostMoreBut {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #d7dce0;
+    display: block;
+    height: 23px;
+    margin: 0;
+    position: relative;
+    transition: border-color 0.2s linear 0s;
+}
+.AltasibTicketPostMoreBut::before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("/local/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll 21px 5px #F8F6E4;
+    border: 1px solid #d7dce0;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    bottom: -1px;
+    content: "";
+    height: 21px;
+    left: 50%;
+    margin-left: -32px;
+    position: absolute;
+    transition: border-color 0.2s linear 0s;
+    width: 63px;
+}
+
+.Altasib_text_div {
+    max-height: 288px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.Altasib_text_div_inner {
+    padding-bottom: 15px;
+}
+a.altasib-support-quote
+{
+	display: block;
+	position: absolute;
+	
+    background: url("/local/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll 0 -96px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    position: absolute;
+    text-decoration: none;
+    transition: opacity 0.4s ease 0s, visibility 0.1s linear 0.4s;
+    width: 32px;
+    z-index: 500;	
+}
+a.altasib-support-quote:hover
+{
+    background: url("/local/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll -63px -96px rgba(0, 0, 0, 0);
+}
+a.altasib-support-quote:active
+{
+    background: url("/local/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll -126px -97px rgba(0, 0, 0, 0);
+}
+#altasib_supportFullScreen
+{
+	display: block;
+	float: right;
+	padding: 3px 5px;
+	margin: 3px 9px 0px 0px;
+	background: url("/local/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll -2px -131px rgba(0, 0, 0, 0);
+	width: 33px; height: 21px;
+	border: 0px!important;
+}
+#altasib_supportToggleBar
+{
+	display: block;
+	float: right;
+	margin: 3px 5px 0px 0px;
+	padding: 3px 5px;
+	background: url("/local/components/altasib/support/templates/.default/images/altasib_support_sprite.png") no-repeat scroll -56px -131px rgba(0, 0, 0, 0);
+	width: 35px; height: 21px;
+	border: 0px!important;
+}
+#sidebar-block-mobile
+{
+	display: none;
+	width: 100%;
+	overflow: hidden;
+	float: right;
+}*/

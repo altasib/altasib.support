@@ -1,0 +1,281 @@
+.altasib_ticketnform 
+{
+    background:#f8f8f8;
+	color: #535c69;
+	padding: 15px;
+	font-size: 13px;
+	border: 1px solid #eee;
+}
+.ticketn
+{
+	color: #535c69;
+}
+.altasib_ticketnform .support-form-note {
+    border: 1px solid;
+    border-color: #ced0d1 #d1d4d6 #d3d6d8 #d1d5d6;
+    border-radius: 2px;
+    -moz-box-shadow: 0 1px 2px rgba(229,229,229,0.8) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(229,229,229,0.8) inset;
+    box-shadow: 0 1px 2px rgba(229,229,229,0.8) inset;
+    color: #9C9C9C;
+    font-size: 14px;
+    margin: 0;
+    height: 35px;
+    /*padding: 6px 12px 7px;*/
+	line-height: 33px;
+    position: relative;
+    cursor: text;
+    background-color: #fff;
+	width: 99%;
+}
+.altasib_ticketnform .support-form-note div{
+	margin-left: 15px;
+}
+.support-form-tab
+{
+	margin: 10px 0;
+}
+.support-form-tab [class^="icon-"] {
+	width: 25px;
+	font-size: 17px;
+	color: #2FC7F7;
+	display: block;
+	float: left;
+	line-height: 23px;
+}
+.hidden-mess-form
+{
+	background-color: #FCF6EE;
+}
+	
+#support-form-loadFiles a.file-selectdialog-switcher
+{
+	display: none;
+}
+a.altasib-form-tab span
+{
+	
+/*	border-bottom: 1px dashed #A8BDD1!important;
+	transition: border-bottom-color 0.2s linear 0s;*/    
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+a.altasib-form-tab, a.altasib-form-tab:visited
+{
+	display: inline-block;
+	border: 1px solid #E1E1E1;
+	line-height: 24px;
+	padding: 7px;
+	text-decoration: none !important;
+	transition: background-color 0.2s linear 0s;
+	width: 185px;
+	background-color: #EEF2F4;
+	color:#939EA5!important;
+	border-radius: 2px;
+	margin-bottom: 3px;
+}
+
+a.altasib-form-tab:hover{
+	text-decoration: none!important;
+	background-color: #DEE4E7;
+	color: #535A5F !important;
+	
+}
+
+a.altasib-form-tab:hover [class^="icon-"]{
+	font-size: 25px;
+}
+#altasib-param-form, #altasib-team-form
+{
+	display: none;
+}
+.altasib-param-form-inner
+{
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+	clear: both;
+	padding: 10px;
+}
+.altasib-param-form1, .altasib-param-form2
+{
+	width: 250px;
+	float: left;
+}
+
+.altasib_ticketnform .altasib-support-button {
+    display: inline-block !important;
+    height: 39px;
+    line-height: 40px;    
+    min-width: 95px;
+    position: relative !important;
+    vertical-align: middle !important;
+	color: #fff !important;
+	text-decoration: none !important;
+
+    background-color: rgba(47, 199, 247, 1);
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 20px 10px 0;
+    min-width: 185px;
+    padding: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.3s linear 0s !important;
+    vertical-align: middle;	
+	border-bottom: 0px !important;
+	cursor: pointer;
+}
+.altasib_ticketnform .altasib-support-button:hover {
+    background-color: #009cf1;
+    color: #fff;
+	text-decoration: none;
+	border-bottom: 0px !important;
+}
+.altasib_ticketnform .dop_title_block_2, .dop_title_block_form
+{
+	padding: 10px 0;	
+	width: 100%;	
+	display: inline-table;
+	border-bottom: 7px solid #F0F0F0;
+	margin-top: 15px;	
+	color: #474747;
+	font-size: 18px;
+	font-family: "OpenSans-Light",sans-serif;		
+}
+.dop_title_block_form
+{
+	margin-top: 0px;
+}
+.altasib_ticketnform input[type="checkbox"] {
+    margin: 4px 10px 0px;
+}	
+.altasib_ticketnform label {
+    font-weight: normal;
+}	
+#cancel-form:hover, #altasib-support-submit-form-and-go:hover, .cancel-form:hover
+{
+	text-decoration: underline;
+}
+#cancel-form
+{
+	display: none;
+	color: red;
+	margin-right: 20px;	
+	margin-top: 20px;
+	text-decoration: none;	
+}
+.altasib_ticketnform .cancel-form
+{
+	color: red;
+	margin-right: 20px;	
+	margin-top: 20px;
+	text-decoration: none;	
+}
+#altasib-support-submit-form-and-go
+{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 20px;
+	text-decoration: none;	
+}
+.addTicket-owner_chosen, .addTicket-select, .form_type_time {
+  /*  width: 300px;*/
+}
+.altasib-param-form-inner .chosen-single
+{
+    -moz-user-select: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px 0px;
+    position: relative;
+    vertical-align: middle;
+	width: 55px;
+}
+input{
+	box-sizing: border-box;
+}
+.altasib-param-form-inner .form_type_time .chosen-single
+{
+	width: 350px;
+}
+.addTicket-owner_chosen .chosen-container, 
+.addTicket-select .chosen-container,
+.altasib-param-form-inner .chosen-container
+{
+    -moz-user-select: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px 0px;
+    position: relative;
+    vertical-align: middle;
+	min-width: 300px;
+}
+.altasib-param-form-inner .chosen-container
+{
+	min-width: 50px;
+}
+.form_type_label
+{
+	display: inline-table;
+	width: 32px;
+}
+.chosen-container .chosen-single
+ {
+   	border:1px solid #C9D5DE !important;
+	min-height: 30px;		
+	line-height: 29px;
+}
+.altasib-param-form-inner .chosen-container
+{
+	margin: 0 15px;
+}
+
+.left_title_pole_projects
+{
+	height: 33px;
+}
+.left_title_pole_projects a
+{
+	border-bottom: 1px dashed #a8bdd1 !important;
+}
+.starrequired
+{
+	color: #AB1212;
+	padding-left: 5px;
+}
+.altasib_support_edit_required
+{
+	
+	color: #aaa;
+	font-style: italic;
+	margin: 25px 0 15px 0;
+}
+.altasib_ticketnform .left_title_pole
+{
+	font-weight: bold;
+}
+.addTicket-titleInputtext input
+{
+	border:1px solid #C9D5DE;
+	height: 30px;
+	padding: 3px 5px;
+	color: #555;
+    min-width: 80%;	
+    margin: 5px 0px;	
+}
+.altasib_ticketnform div.lastPadding
+{
+	height: 8px;
+}
+#support_ticket_group
+{
+	color: #ab1212;
+	font-weight: bold;
+}
