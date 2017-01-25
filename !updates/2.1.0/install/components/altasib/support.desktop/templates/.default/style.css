@@ -1,0 +1,28 @@
+.support-list
+{
+        border: 1px solid #C9D5DE;
+        background:#f8f9fd;
+        border-collapse:collapse;
+        width:100%;
+}
+.support-list th
+{
+        background:#e1edf4;
+        text-align:left;
+        height:40px;
+        color:#4f595f;
+        border-collapse:collapse;
+        border: 1px solid #C9D5DE;
+        font-weight:normal;
+        padding: 0px 0px 0px 6px;
+}
+.support-list td
+{
+        /*border: 1px solid grey;*/
+        padding: 5px 6px 5px 6px;
+        border-bottom: 1px solid #C9D5DE;
+}
+.support-list .bg_light td
+{
+        background:#fbfcff;
+}

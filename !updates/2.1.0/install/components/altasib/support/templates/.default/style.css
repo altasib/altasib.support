@@ -1,0 +1,273 @@
+#support-detail .sidebar-btn-show {background-position:4px -3901px}
+#support-detail .sidebar-btn-show:after {background-position:-5px -3991px !important; left:10px;}
+#workarea-content, #workarea
+{
+	overflow: visible!important;
+}
+
+#altasib_sidebar_resizer {
+  height:100px;
+  width:1px;
+  border: 0;
+  border-right: 4px solid transparent;
+  padding: 0px;
+  font-size:.01em;
+  cursor: e-resize;
+}
+#altasib_sidebar_resizer:hover {
+	border-right: 3px solid #ccc;
+	border-left: 1px dashed #bbb;
+}
+.altasib_sidebar_resizer-close
+{
+	background-color: #e2e2e2!important;
+	border-right: 1px solid #D5DBDF!important;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+	cursor: default!important;
+}
+
+#altasib-support-detail .sidebar-btn-close {
+	background:url("/bitrix/panel/main/images/bx-admin-sprite-small-1.png") no-repeat  0px -3901px;
+	cursor:pointer;
+	margin-left: -2px;
+	/*  transition: all 1s;*/
+/*	margin-right:-7px;*/
+	height:90px;
+	top:50%;
+	/*margin-top: 35px;*/
+	position:fixed;
+	width:25px;
+    z-index: 999;
+}
+
+#altasib-support-detail .sidebar-btn-close:after{
+	background:url("/bitrix/panel/main/images/bx-admin-sprite-small-1.png") no-repeat -5px -4006px;
+	content:"";
+	height:13px;
+	left:7px;
+	top:39px;
+	position:absolute;
+	width:6px;
+}
+
+#altasib-support-detail .sidebar-btn-show {background-position:4px -3901px; margin-left: -7px;}
+#altasib-support-detail .sidebar-btn-show:after {background-position:-5px -3991px !important; left:10px;}
+
+#altasib-support-detail .ticketn a
+{
+	border-bottom: 1px solid transparent;
+	color: #0b66c3;
+	text-decoration: none;
+	transition: border-bottom-color 0.2s linear 0s;
+}
+#altasib-support-detail .ticketn a:hover
+{
+	border-bottom: 1px solid #0b66c3;
+
+}
+
+.feed-com-text img
+{
+	/*display: none;*/
+}
+.altasib-support-detail-fullScreen
+{
+	position: absolute; 
+	/*
+	top: 1px; 
+	left: 1px; 
+	width: 100%; 
+	*/
+	z-index: 1000; 
+	background-color: #fff;
+}
+/* win_popup */
+.win_popup .altasib-projects-title-win-container
+{
+	padding: 0 10px;
+	width: 100%;		
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;		
+	background-color: #f8f8f8;	
+	height: auto!important;
+}
+.win_popup .altasib-projects-title-win
+{
+	padding: 11px 0 11px 0px;	
+	width: 100%;	
+	display: inline-table;
+	border-bottom: 7px solid #F0F0F0;
+	color: #474747;
+	font-size: 20px;
+	font-family: "OpenSans-Light",sans-serif;	
+	cursor: move;	
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;	
+
+}
+.win_p
+{
+    z-index: 10005;
+    position: absolute;
+	/*opacity: 1;
+    display: none;
+	min-width: 530px;	*/
+}
+.win_popup {
+    padding: 5px 5px;
+    z-index: 1000;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    box-shadow: 0px 0px 10px #BBBBBB;
+    -moz-box-shadow: 0px 0px 10px #BBBBBB;
+    -webkit-box-shadow: 0px 0px 10px #BBBBBB;
+	top: 30%;
+    left:0;	
+	position: fixed;
+	opacity: 0;
+	width: 500px;
+	display: none;	
+}
+.sel_project_id_st, .sel_project_id_st_merge, .merge_projects_select
+{
+	display: none;	
+}
+.merge_projects_select .support_note
+{
+	margin: 5px 15px;
+	font-size: 11px;
+}
+#shadow-popup {
+    background-color: #8A8638;;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.hidden-el{
+	display: none;
+    opacity: 0;	
+}
+.choose_popup {
+    padding: 5px 5px;
+
+    z-index: 550;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    box-shadow: 0px 0px 10px #BBBBBB;
+    -moz-box-shadow: 0px 0px 10px #BBBBBB;
+    -webkit-box-shadow: 0px 0px 10px #BBBBBB;
+}
+
+.choose_popup ul.popup_menuItem
+{
+	padding-left: 0px!important;
+}
+
+
+.choose_popup ul.popup_menuItem li {
+    cursor: pointer;
+    display: list-item!important;
+    line-height: 15px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 5px 10px;
+    word-wrap: break-word;
+}
+.choose_popup ul.popup_menuItem li:hover {
+    background: none repeat scroll 0 0 #d5dbdf;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) inset;
+    color: #000;
+}
+.choose_popup ul.popup_menuItem li.choose_item_selected {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) inset;
+    color: #000;
+	border: 1px solid #ddd;
+}
+a.altasib-support-button-save, a.altasib-support-button-cancel {
+
+	background-color: rgba(47, 199, 247, 1);
+    border-bottom: 0 none !important;
+    border-radius: 2px;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block !important;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 10px 5px 10px;
+    min-width: 103px;
+    padding: 0 12px;
+    position: relative !important;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: background-color 0.3s linear 0s !important;
+    vertical-align: middle !important;	
+}
+.win_popup a.altasib-support-button-save, .win_popup a.altasib-support-button-cancel {
+    margin: 15px 15px 5px 0px;
+	
+}
+.button-opacity0
+{
+	opacity: 0.05;
+}
+.ButtonMin
+{
+	padding: 0 5px!important;
+    font-size: 11px!important;
+	min-width: 80px!important;
+	margin: 10px 5px 0px 0px!important;
+}
+ a.altasib-support-button-cancel {
+
+	background-color: rgba(255, 118, 104, 1);
+}	
+a.altasib-support-button-save:hover {
+    	
+    background-color: #009cf1;
+    border-bottom: 0 none !important;
+    color: #fff;
+    text-decoration: none;	
+}
+a.altasib-support-button-cancel:hover {
+    	
+    background-color: #FF3B33;
+    border-bottom: 0 none !important;
+    color: #fff;
+    text-decoration: none;	
+}	
+.altasib_choose_item_wait
+{
+	background: url("/local/components/altasib/support/templates/.default/images/wait1.gif") center no-repeat #fff;
+    height: 12px;
+    width: 100%;
+	min-width: 127px;
+	margin: 5px 0;
+	display: none;
+}
+
+.choose_popup_close {
+    background: url('/bitrix/themes/.default/images/panel/close.gif') 0 0 no-repeat;
+    border-bottom: none;
+    cursor: pointer;
+    z-index: 551;
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    top: 10px;
+    right: 10px;
+}

@@ -1,15 +1,12 @@
 <?
 #################################################
 #   Company developer: ALTASIB                  #
-#   Developer: Evgeniy Pedan                    #
+#   Developer: Evgeniу Pedan                    #
 #   Site: http://www.altasib.ru                 #
 #   E-mail: dev@altasib.ru                      #
-#   Copyright (c) 2006-2017 ALTASIB             #
+#   Copyright (c) 2006-2014 ALTASIB             #
 #################################################
 ?>
 <?
-$arModuleVersion = array(
-        "VERSION" => "2.1.0",
-        "VERSION_DATE" => "2017-01-25 15:08:00"
-);
+$MESS['ALTASIB_SUPPORT_PROFILE_PATH'] = 'Путь к профайлу пользователя';
 ?>
