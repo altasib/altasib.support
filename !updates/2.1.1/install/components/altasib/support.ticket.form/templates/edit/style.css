@@ -1,0 +1,142 @@
+.support-form-note {
+    border: 1px solid;
+    border-color: #ced0d1 #d1d4d6 #d3d6d8 #d1d5d6;
+    border-radius: 2px;
+    -moz-box-shadow: 0 1px 2px rgba(229,229,229,0.8) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(229,229,229,0.8) inset;
+    box-shadow: 0 1px 2px rgba(229,229,229,0.8) inset;
+    color: #9C9C9C;
+    font-size: 14px;
+    margin: 0;
+    height: 18px;
+    padding: 6px 12px 7px;
+    position: relative;
+    cursor: text;
+    background-color: #fff;
+}
+
+.ticketn
+{
+    /*border:1px solid #B0B0B0;*/
+    border-collapse:collapse;
+      border: 1px solid #C9D5DE;
+      background:#EEF3F6;
+}
+.ticketn td
+{
+  /*border: 1px solid #B0B0B0;*/
+  border: 0px;
+  padding: 3px;
+}
+.title_ticket_main
+{
+        font-size:16px;
+        text-align:left;
+        border: 0px;
+        padding-top:10px;
+        padding-right:3px;
+        padding-left:3px;
+        padding-bottom:6px;
+
+}
+.title_block
+{
+        color:#8A0017;
+        padding-left:6px;
+}
+.line_dotted_main
+{
+        height:1px;
+        overflow:hidden;
+        background:#C9D5DE;
+        margin-top:6px;
+}
+.ticketn textarea
+{
+        width:100%;
+}
+.ticketn .left_title_disr
+{
+        text-align:right;
+        color:#646465;
+        width:50%;
+}
+.ticketn .dop_title_td
+{
+        padding: 7px 3px 3px 3px;
+}
+.ticketn .dop_title_td .dop_title_block
+{
+        background:#d0dce3;
+        padding: 3px;
+        font-size:12px;
+        color:#4f595f;
+        font-weight:bold;
+        text-align:center;
+}
+.ticketn .messege_list_tic
+{
+        padding-left:9px;
+        padding-right:9px;
+        padding-bottom:10px;
+}
+.ticketn .tbl_mess
+{
+        border:1px solid #C9D5DE;
+        background:#f8f9fd;
+}
+.ticketn .title_mess
+{
+        background:#dce7ef;/*#DAE5EC;*/
+        border:1px solid #C9D5DE;
+}
+.ticketn .name_title_mass
+{
+        text-align:left;
+        color:#646465;
+}
+.ticketn .value
+{
+        font-weight:bold;
+        color:#000000;
+}
+.ticketn .time_td_mess
+{
+        text-align:right;
+}
+.ticketn .text_mess_td
+{
+        padding-left:9px;
+        padding-right:9px;
+}
+.ticketn .left_title_pole
+{
+        text-align:right;
+        color:#646465;
+        width:30%;
+        vertical-align:top;
+}
+.ticketn .inputtext
+{
+        width:400px;
+        border:1px solid #C0C0C0;
+}
+.ticketn .textarea_input
+{
+        width:400px;
+        border:1px solid #C0C0C0;
+}
+.ticketn .textarea_input2
+{
+        border:1px solid #C0C0C0;
+        height:130px;
+}
+.ticketn .select_input
+{
+        width:400px;
+}
+.ticketn .block_date input
+{
+        width:380px;
+        border:1px solid #C0C0C0;
+}

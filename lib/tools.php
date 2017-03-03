@@ -346,10 +346,10 @@ class Tools
     function __OnParseSocNetComponentPath(&$arUrlTemplates, &$arCustomPagesPath)
     {
        $arUrlTemplates["support"] = "group/#group_id#/support/";
-       $arCustomPagesPath["support"] = "/local/components/altasib/support/";
+       $arCustomPagesPath["support"] = "/bitrix/components/altasib/support/";
        
        $arUrlTemplates["support_detail"] = "group/#group_id#/support/ticket/#TICKET_ID#/";
-       $arCustomPagesPath["support_detail"] = "/local/components/altasib/support/";
+       $arCustomPagesPath["support_detail"] = "/bitrix/components/altasib/support/";
     }
     
     function __OnInitSocNetComponentVariables(&$arVariableAliases, &$arCustomPagesPath)
@@ -616,7 +616,7 @@ class Tools
                                 );
                                 
                             if(!function_exists('getMessageSupport'))
-                                include_once($_SERVER['DOCUMENT_ROOT'].'/local/components/altasib/support.ticket.detail/templates/.default/message_template.php');
+                                include_once($_SERVER['DOCUMENT_ROOT'].'/bitrix/components/altasib/support.ticket.detail/templates/.default/message_template.php');
 
                             $dataTicket = TicketTable::getRow(array(
                                 'filter'=>array('ID'=>$ticketId),
