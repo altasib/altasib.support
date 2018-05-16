@@ -1,0 +1,132 @@
+.ticket-list
+{
+        border: 1px solid #C9D5DE;
+        background:#f8f9fd;
+        border-collapse:collapse;
+        width:100%;
+}
+.ticket-list th
+{
+        background:#e1edf4;
+        text-align:left;
+        height:40px;
+        color:#4f595f;
+        border-collapse:collapse;
+        border: 1px solid #C9D5DE;
+        font-weight:normal;
+        padding: 0px 0px 0px 6px;
+}
+.ticket-list td
+{
+        /*border: 1px solid grey;*/
+        padding: 5px 6px 5px 6px;
+        border-bottom: 1px solid #C9D5DE;
+}
+.ticket-list .bg_light td
+{
+        background:#fbfcff;
+}
+
+.stl-filter
+{
+        border: 1px solid #C9D5DE;
+        background:#f8f9fd;
+        border-collapse:collapse;
+        width:100%;
+        margin-bottom:2px;
+}
+.stl-filter th
+{
+        background:#e1edf4;
+        text-align:left;
+        height:40px;
+        color:#4f595f;
+        border-collapse:collapse;
+        border: 1px solid #C9D5DE;
+        font-weight:normal;
+        padding: 0px 0px 0px 6px;
+}
+.stl-filter td
+{
+        /*border: 1px solid grey;*/
+        padding: 5px 6px 5px 6px;
+        border-bottom: 1px solid #C9D5DE;
+        border-right: 1px solid #C9D5DE;
+}
+.stl-filter .bg_light td
+{
+        background:#fbfcff;
+}
+
+.altasib-support-block-gray{
+    width: auto;
+    height: 10px;
+    background: #CCCCCC;    
+}
+
+.altasib-support-block-green{
+
+    background: #339966;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+    width: 12px;
+    height: 12px;	
+	border: 1px solid #339966;
+	border-radius: 3px;
+	box-shadow: inset 0 0 1px #f0f0f0;	
+}
+
+.altasib-support-block-red{
+/*    width: auto;
+    height: 10px;*/
+    background: #FF3333;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+    width: 12px;
+    height: 12px;	
+	border: 1px solid #FF3333;
+	border-radius: 3px;
+	box-shadow: inset 0 0 1px #f0f0f0;	
+}
+
+.altasib-support-block-brown{
+    width: auto;
+    height: 10px;
+    background: brown;
+}
+.altasib-support-button {
+    display: inline-block !important;
+    height: 39px;
+    line-height: 40px;    
+    min-width: 95px;
+    position: relative !important;
+    vertical-align: middle !important;
+	color: #fff !important;
+	text-decoration: none !important;
+
+    background-color: rgba(47, 199, 247, 1);
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 15px 10px 0px;
+    min-width: 103px;
+    padding: 0 12px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.3s linear 0s !important;
+    vertical-align: middle;	
+	border-bottom: 0px !important;
+	cursor: pointer;
+}
+.altasib-support-button:hover {
+    background-color: #009cf1;
+    color: #fff;
+	text-decoration: none;
+	border-bottom: 0px !important;
+}
