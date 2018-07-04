@@ -6,7 +6,7 @@ use ALTASIB\Support\TextParser;
 use Bitrix\Main;
 
 __IncludeLang(dirname(__FILE__).'/lang/'.LANGUAGE_ID.'/template.php');
-function getMessageSupport($arMessage,$arParams,$Ticket, $lastDate)
+function getMessageSupport($arMessage,$arParams,$Ticket, $lastDate = '')
 {
     global $APPLICATION;
     global $USER;
